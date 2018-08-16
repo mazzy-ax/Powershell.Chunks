@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Powershell.Chunks</id>
+    <version>1.0.0</version>
+    <authors>Sergey Mazurkin</authors>
+    <licenseUrl>https://github.com/mazzy-ax/Powershell.Chunks/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mazzy-ax/Powershell.Chunks</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The native Powershell module contain cmdlet Get-Chunk splits an array into arrays each not exceeding the given size.</description>
+    <releaseNotes>https://github.com/mazzy-ax/Powershell.Chunks/blob/master/CHANGELOG.md</releaseNotes>
+    <tags>Chunk Collection Array</tags>
+  </metadata>
+  <files>
+    <file src="Powershell.Chunks\**\*.*" target="\" />
+  </files>
+</package>

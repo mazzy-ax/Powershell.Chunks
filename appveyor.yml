@@ -1,0 +1,37 @@
+# See http://www.appveyor.com/docs/appveyor-yml for many more options
+
+version: 1.0.0.{build}
+
+only_commits:
+  files:
+    - $env:APPVEYOR_PROJECT_NAME/
+    - $env:APPVEYOR_PROJECT_NAME.nuspec
+    - Examples/*.ps1
+    - Tests/*.ps1
+    - appveyor.yml
+
+image:
+- Visual Studio 2015
+- WMF 5
+- Ubuntu
+
+init:
+- ps: |
+    $PSVersionTable
+    [System.Environment]::OSVersion
+
+install:
+- ps: |
+    Install-Package -Name Pester -Force -Scope CurrentUser -SkipPublisherCheck -PackageManagementProvider PowerShellGet | Out-Null
+    Install-Module -Name PSScriptAnalyzer -Force -Scope CurrentUser
+
+build_script:
+- ps: |
+    Import-Module ./$env:APPVEYOR_PROJECT_NAME
+
+test_script:
+- ps: |
+    $res = Invoke-Pester -OutputFormat NUnitXml -OutputFile TestsResults.xml -PassThru
+    $dest = "https://ci.appveyor.com/api/testresults/nunit/$($env:APPVEYOR_JOB_ID)"
+    (New-Object 'System.Net.WebClient').UploadFile($dest, (Resolve-Path TestsResults.xml))
+    if ($res.FailedCount) { throw "$($res.FailedCount) tests failed." }
