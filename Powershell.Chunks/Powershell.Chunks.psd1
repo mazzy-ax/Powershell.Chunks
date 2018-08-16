@@ -22,7 +22,7 @@ CompanyName = 'mazzy'
 Copyright = 'Copyright (c) 2018 Sergey Mazurkin, licensed under MIT License.'
 
 # Description of the functionality provided by this module
-Description = 'The native Powershell module contain cmdlet Get-Chunk splits an array into arrays each not exceeding the given size.'
+Description = 'The native Powershell cmdlet Get-Chunk splits an array into arrays each not exceeding the given size.'
 
 # Minimum version of the Windows PowerShell engine required by this module
 PowerShellVersion = '3.0'

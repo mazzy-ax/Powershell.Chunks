@@ -7,7 +7,7 @@
     <licenseUrl>https://github.com/mazzy-ax/Powershell.Chunks/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/mazzy-ax/Powershell.Chunks</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The native Powershell module contain cmdlet Get-Chunk splits an array into arrays each not exceeding the given size.</description>
+    <description>The native Powershell cmdlet Get-Chunk splits an array into arrays each not exceeding the given size.</description>
     <releaseNotes>https://github.com/mazzy-ax/Powershell.Chunks/blob/master/CHANGELOG.md</releaseNotes>
     <tags>Chunk Collection Array</tags>
   </metadata>

@@ -16,9 +16,9 @@ The cmdlet preserve or reverse the order of elements depending on the sign of th
 ## Examples
 
 ```powershell
-'a','b','c','d','e' | Get-Chunk 2
+'a','b','c','d','e' | Get-Chunk 2                 # Should be @( @('a','b'), @('c','d'), @('e') )
 
-Get-Chunk -3 -InputObject @(1,2,3,4,5,6,7,8)
+Get-Chunk -3 -InputObject @(1,2,3,4,5,6,7,8)      # Should be @( @(8,7,6), @(5,4,3), @(2,1) )
 ```
 
 More [Examples](Examples).
