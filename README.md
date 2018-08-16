@@ -4,7 +4,7 @@
 [license]:https://github.com/mazzy-ax/Powershell.Chunks/blob/master/LICENSE
 [ps]:https://www.powershellgallery.com/packages/Powershell.Chunks
 [nuget]:https://www.nuget.org/packages/mazzy.Powershell.Chunks
-[appveyor]:https://ci.appveyor.com/project/mazzy-ax/Powershell.Chunks
+[appveyor]:https://ci.appveyor.com/project/mazzy-ax/powershell-chunks
 
 [![Build status](https://ci.appveyor.com/api/projects/status/n1m7pwssqxnsxgth?svg=true)][appveyor]
 [![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/Powershell.Chunks.svg)][ps]
