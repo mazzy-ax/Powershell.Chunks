@@ -3,12 +3,12 @@
 [project]:https://github.com/mazzy-ax/Powershell.Chunks
 [license]:https://github.com/mazzy-ax/Powershell.Chunks/blob/master/LICENSE
 [ps]:https://www.powershellgallery.com/packages/Powershell.Chunks
-[nuget]:https://www.nuget.org/packages/Powershell.Chunks
+[nuget]:https://www.nuget.org/packages/mazzy.Powershell.Chunks
 [appveyor]:https://ci.appveyor.com/project/mazzy-ax/Powershell.Chunks
 
 [![Build status](https://ci.appveyor.com/api/projects/status/n1m7pwssqxnsxgth?svg=true)][appveyor]
 [![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/Powershell.Chunks.svg)][ps]
-[![NuGet](https://buildstats.info/nuget/Powershell.Chunks)][nuget]
+[![NuGet](https://buildstats.info/nuget/mazzy.Powershell.Chunks)][nuget]
 
 [Powershell.Chunks][project] is a powershell native cmdlet that splits an array into arrays each not exceeding the given size.
 The cmdlet preserve or reverse the order of elements depending on the sign of the parameter size.

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Powershell.Chunks</id>
+    <id>mazzy.Powershell.Chunks</id>
     <version>1.0.0</version>
     <authors>Sergey Mazurkin</authors>
     <licenseUrl>https://github.com/mazzy-ax/Powershell.Chunks/blob/master/LICENSE</licenseUrl>
