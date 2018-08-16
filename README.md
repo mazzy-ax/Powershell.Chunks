@@ -41,9 +41,9 @@ Import-Module Powershell.Chunks
 
 or manual:
 
-* Download and unblock the latest .zip file.
+* Download and unblock the latest [.zip file](https://github.com/mazzy-ax/Powershell.Chunks/archive/master.zip).
 * Extract the .zip into your `$PSModulePath`, e.g. `~\Documents\WindowsPowerShell\Modules`.
-* Ensure the extracted folder is named `Permutation`.
+* Ensure the extracted folder is named `Powershell.Chunks`.
 * Set an execution policy to `RemoteSigned` or `Unrestricted` to execute not signed modules `Set-ExecutionPolicy RemoteSigned`.
 * Run `Import-Module Permutation`.
 
