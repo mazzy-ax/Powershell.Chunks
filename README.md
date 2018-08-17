@@ -10,7 +10,7 @@
 [![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/Powershell.Chunks.svg)][ps]
 [![NuGet](https://buildstats.info/nuget/mazzy.Powershell.Chunks)][nuget]
 
-[Powershell.Chunks][project] is a powershell native cmdlet that splits an array into arrays each not exceeding the given size.
+[Powershell.Chunks][project] is a Powershell cmdlet that splits an array into arrays each not exceeding the given size.
 The cmdlet preserve or reverse the order of elements depending on the sign of the parameter size.
 
 ## Examples

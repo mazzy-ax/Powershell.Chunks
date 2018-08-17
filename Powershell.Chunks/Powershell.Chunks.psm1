@@ -6,7 +6,7 @@
 Splits an array into arrays each not exceeding the given size.
 
 .DESCRIPTION
-The native Powershell cmdlet Get-Chunk splits an array into arrays each not exceeding the given size.
+The Powershell cmdlet Get-Chunk splits an array into arrays each not exceeding the given size.
 The cmdlet preserve or reverse the order of elements depending on the sign of the parameter size.
 
 .EXAMPLE
